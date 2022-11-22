@@ -41,11 +41,11 @@ $routes->get('/login2', 'User::login2');
 $routes->post('/validar', 'User::validar');
 
 //esta ruta es del panel principal
-$routes->get('/dashboard', 'Dashboard::principal');
+$routes->get('/principal', 'Dashboard::principal');
 
 
 /*
-*estas rutas no nos sirven pero sin embargo las dejamos porque nos pueden servir
+*estas rutas van a servir en algun momento
 */
 //$routes->get('/login', 'User::login',['as' => 'user_login_get']);
 //$routes->post('/login_post', 'User::login_post',['as' => 'user_login_post']);
