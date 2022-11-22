@@ -6,9 +6,22 @@ use \CideIgniter\Exceptions\PageNotFoundException;
 
 class User extends BaseController
 {
+    public function inicio()
+    {
+        $this->_loadDefaultView([],'inicio');
+    }
+  
     public function login()
     {
         $this->_loadDefaultView([],'login');
+    }
+    public function validar()
+    {
+        $this->_loadDefaultView([],'validar');
+    }
+    public function login2()
+    {
+        $this->_loadDefaultView([],'login2');
     }
     public function login_post()
     {

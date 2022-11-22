@@ -14,24 +14,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     
-    <link rel="stylesheet" href="<?= base_url() ?>public/user/css/login.css ">
-    
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/cabecera.css">
 </head>
 <body>
-    <form action="<?php echo base_url(); ?>/validar" method="post">
+    <form action="/login2" method="post">
         <h1>DigitalRest</h1>
         <p>Usuario <input REQUIRED type="text" color: red placeholder= "&#128273; Usuario" name="usuario"></p>
         <p>Contraseña <input REQUIRED type="password" placeholder= "&#128274; Contraseña" name="password"></p>
         <br>
-      
         <input type="submit" value="Ingresar">
 <br>
 <br>
 
-<a href="correo.php">¿Olvidaste tu contraseña?</a>
+<a href="Registro.php" style="color: white">Crear una cuenta</a>
 <br>
 <br>
-<a href="<?php echo base_url(); ?>/inicio">Regresar</a>
+<a href="correo.php" style="color: white">¿Olvidaste tu contraseña?</a>
+<br>
+<br>
+<a href="<?php echo base_url(); ?>/inicio" style="color: white">Regresar</a>
     </form>
 </body>
 </html>
