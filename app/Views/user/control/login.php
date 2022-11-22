@@ -12,7 +12,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login 1</title>
+    <title>Inicio de sesion Administradores</title>
     
     <link rel="stylesheet" href="<?= base_url() ?>public/user/css/login.css ">
     
@@ -28,10 +28,10 @@
 <br>
 <br>
 
-<a href="correo.php">¿Olvidaste tu contraseña?</a>
+<a href="correo.php" style="color: white">¿Olvidaste tu contraseña?</a>
 <br>
 <br>
-<a href="<?php echo base_url(); ?>/inicio">Regresar</a>
+<a href="<?php echo base_url(); ?>/" style="color: white">Regresar</a>
     </form>
 </body>
 </html>

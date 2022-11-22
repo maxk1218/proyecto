@@ -35,11 +35,18 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/inicio', 'User::inicio');
+$routes->get('/', 'User::inicio');
 $routes->get('/login', 'User::login');
 $routes->get('/login2', 'User::login2');
 $routes->post('/validar', 'User::validar');
 
+//esta ruta es del panel principal
+$routes->get('/dashboard', 'Dashboard::principal');
+
+
+/*
+*estas rutas no nos sirven pero sin embargo las dejamos porque nos pueden servir
+*/
 //$routes->get('/login', 'User::login',['as' => 'user_login_get']);
 //$routes->post('/login_post', 'User::login_post',['as' => 'user_login_post']);
 //$routes->post('/logout', 'User::logout',['as' => 'user_logout']);
