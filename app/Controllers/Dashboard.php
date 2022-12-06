@@ -20,4 +20,8 @@ class Dashboard extends BaseController
 
        
     }
+    /*
+    * en este controlador va a haber una funcion que muestre los
+    *datos de la tabla ventas 
+    */ 
 }

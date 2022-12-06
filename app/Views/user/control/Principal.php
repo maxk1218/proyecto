@@ -133,32 +133,6 @@
                             </div>
                         </div>
                         
-                        <div class="card mb-4">
-                            <div class="card-header"><i class="fas fa-table mr-1"></i>Ventas</div>
-                            <div class="card-body">
-                                <div class="table-responsive">
-                                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                        <thead>
-                                            <tr>
-                                                <th>ID_Venta</th>
-                                                <th>Platillo</th>
-                                                <th>Precio</th>
-                                                <th>Fecha</th>
-                                                <th>Tipo de pago</th>
-                                                <th>Modalidad venta</th>                                              
-                                            </tr>
-                                        </thead>
-                                        <tfoot>
-                                            <tr>
-                                                <th>ID_Venta</th>
-                                                <th>Platillo</th>
-                                                <th>Precio</th>
-                                                <th>Fecha</th>
-                                                <th>Tipo de pago</th>
-                                                <th>Modalidad venta</th>  
-                                            </tr>
-                                        </tfoot>
-                                        <tbody>
                                        
 				<?php
 
@@ -178,7 +152,7 @@
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid">
                         <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; DigitalRest 2021</div>
+                            <div class="text-muted">Copyright &copy; DigitalRest 2022</div>
                             <div>
                                 <a href="#">Privacy Policy</a>
                                 &middot;
