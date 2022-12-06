@@ -1,3 +1,3 @@
-<footer> Copyright TM 2022</footer>
+<footer> </footer>
 </body>
 </html>

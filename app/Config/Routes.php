@@ -41,7 +41,7 @@ $routes->get('/login2', 'User::login2');
 $routes->post('/validar', 'User::validar');
 
 //esta ruta es del panel principal
-$routes->get('/principal', 'Dashboard::principal');
+$routes->get('/principal', 'Dashboard::Principal');
 
 
 /*

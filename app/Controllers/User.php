@@ -31,6 +31,11 @@ class User extends BaseController
     {
        
     }
+
+    public function principal()
+    {
+        $this->_loadDefaultView([],'Principal');
+    }
     public function _loadDefaultView($data,$view)
     {
         echo view ("user/templates/csstemplate");

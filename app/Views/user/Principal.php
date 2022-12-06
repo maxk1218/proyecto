@@ -162,10 +162,21 @@
                                        
 				<?php
 
-                //$resultado = $conexion->query($query);
-                //while($row = $resultado->fetch_assoc()){
-       
-                
+                $resultado = $conexion->query($query);
+                while($row = $resultado->fetch_assoc()){
+                ?>
+                    <h1><tr>
+                        <td><?php echo $row['ID_Venta']; ?></td>
+                        <td><?php echo $row['Platillo']; ?></td>
+                        <td><?php echo $row['Precio']; ?></td>
+                        <td><?php echo $row['Fecha']; ?></td>                  
+                        <td><?php echo $row['Tpago']; ?></td>							
+                        <td><?php echo $row['Modalidad_ventas']; ?></td>
+                        <th><a href="ModificarVenta.php?ID_Venta=<?php echo $row['ID_Venta'];?>"><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Modificar</button></a>
+					<th><a href="EliminarVentasPrincipal.php?ID_Venta=<?php echo $row['ID_Venta'];?>"><button type="button" class="btn btn-primary" onclick="return Eliminar()">Eliminar</button></a></th>
+                    </tr></h1>
+                <?php
+                }
                 ?>                                        
                                         </tbody>
                                     </table>
